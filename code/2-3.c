@@ -2,7 +2,7 @@
 
 int main()
 {    
-    unsigned int x = 0x1234578;
+    unsigned int x = 0x12345678;
 
     unsigned char* addr = (unsigned char*)&x;
     printf("%x\n", *addr);
