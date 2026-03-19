@@ -14,8 +14,12 @@ int main()
         }
 
     }
-
-    if (f == 1)
+    if (a<2)
+    {   
+        printf("false\n");
+    }
+    
+    else if (f == 1)
     {
         printf("true\n");
     }
